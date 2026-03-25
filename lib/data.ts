@@ -2,7 +2,7 @@
 export const facilitadora = {
   nombre: "Carmela González",
   rol: "Facilitadora de retiros y encuentros",
-  email: "encuentrosenelامor@gmail.com",
+  email: "encuentrosenelamor@gmail.com",
   telefono: "622 045 564",
   blog: "https://recuperarelparaiso.blogspot.com",
   tagline: "Abriendo espacios donde el Amor se hace presente",
