@@ -98,7 +98,7 @@ export default function Home() {
             <Button href="/actividades" variant="secondary">
               Ver próximas actividades →
             </Button>
-            <Button href="/acerca-de-mi" variant="ghost">
+            <Button href="/acerca-de-mi" variant="secondary">
               Conoce el proyecto
             </Button>
           </motion.div>
