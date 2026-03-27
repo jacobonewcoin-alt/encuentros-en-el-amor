@@ -115,7 +115,7 @@ export default function HomeClient({ actividadesPreview, testimonioDestacado }: 
             <Button href="/actividades" variant="primary">
               Ver próximas actividades →
             </Button>
-            <Button href="/acerca-de-mi" variant="secondary">
+            <Button href="/acerca-de-mi" variant="primary">
               Conoce el proyecto
             </Button>
           </motion.div>
