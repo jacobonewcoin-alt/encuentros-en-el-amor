@@ -82,7 +82,7 @@ export default function HomeClient({ actividadesPreview, testimonioDestacado }: 
             transition={{ duration: 0.6, delay: 0.2 }}
             className="font-[family-name:var(--font-jost)] text-[10px] tracking-[0.3em] uppercase text-[var(--ambar)]"
           >
-            Retiros · Encuentros · Comunidad
+            Comunidad · Retiros · Espiritualidad
           </motion.p>
 
           <motion.h1
