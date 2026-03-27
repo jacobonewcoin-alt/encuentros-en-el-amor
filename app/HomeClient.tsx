@@ -55,14 +55,14 @@ export default function HomeClient({ actividadesPreview, testimonioDestacado }: 
       {/* ── HERO ─────────────────────────────────── */}
       <section
         className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
-        style={{ background: "var(--tierra)" }}
+        style={{ background: "var(--lino)" }}
       >
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
             background: `
-              radial-gradient(ellipse 80% 60% at 50% 110%, rgba(196,154,108,0.13) 0%, transparent 70%),
-              radial-gradient(ellipse 60% 40% at 20% 0%, rgba(139,94,82,0.1) 0%, transparent 60%)
+              radial-gradient(ellipse 80% 60% at 50% 110%, rgba(196,154,108,0.10) 0%, transparent 70%),
+              radial-gradient(ellipse 60% 40% at 20% 0%, rgba(90,62,43,0.05) 0%, transparent 60%)
             `,
           }}
         />
@@ -73,7 +73,7 @@ export default function HomeClient({ actividadesPreview, testimonioDestacado }: 
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
-            <LogoSymbol size={72} variant="dark" />
+            <LogoSymbol size={72} variant="light" />
           </motion.div>
 
           <motion.p
@@ -89,7 +89,7 @@ export default function HomeClient({ actividadesPreview, testimonioDestacado }: 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.35 }}
-            className="font-[family-name:var(--font-cormorant)] text-[clamp(38px,7vw,72px)] font-light italic text-[var(--lino)] leading-[1.15] max-w-3xl"
+            className="font-[family-name:var(--font-cormorant)] text-[clamp(38px,7vw,72px)] font-light italic text-[var(--tierra)] leading-[1.15] max-w-3xl"
           >
             Abriendo espacios donde<br />
             <em style={{ fontStyle: "italic" }}>el Amor se hace presente</em>
@@ -99,7 +99,7 @@ export default function HomeClient({ actividadesPreview, testimonioDestacado }: 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="font-[family-name:var(--font-jost)] text-[15px] font-light text-[var(--lino)] opacity-70 max-w-lg leading-relaxed"
+            className="font-[family-name:var(--font-jost)] text-[15px] font-light text-[var(--texto-suave)] max-w-lg leading-relaxed"
           >
             Un espacio de encuentro entre iguales para adultos en búsqueda.
             <br />
@@ -112,7 +112,7 @@ export default function HomeClient({ actividadesPreview, testimonioDestacado }: 
             transition={{ duration: 0.6, delay: 0.65 }}
             className="flex flex-col sm:flex-row gap-3 mt-2"
           >
-            <Button href="/actividades" variant="secondary">
+            <Button href="/actividades" variant="primary">
               Ver próximas actividades →
             </Button>
             <Button href="/acerca-de-mi" variant="secondary">
