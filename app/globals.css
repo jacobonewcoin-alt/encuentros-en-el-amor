@@ -38,7 +38,7 @@ html {
 }
 
 body {
-  background-color: var(--crema);
+  background-color: var(--lino);
   color: var(--texto);
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
