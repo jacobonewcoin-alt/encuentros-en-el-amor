@@ -155,7 +155,7 @@ export default function TestimoniosClient({ destacados, resto }: Props) {
             <h2 className="font-[family-name:var(--font-cormorant)] text-[clamp(24px,4vw,36px)] font-light text-[var(--lino)]">
               ¿Sientes que esto es para ti?
             </h2>
-            <Button href="/contacto" variant="primary">
+            <Button href="/contacto" variant="secondary">
               Escríbeme →
             </Button>
           </motion.div>

@@ -35,11 +35,7 @@ export default function Nav() {
 
   return (
     <>
-      <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          showSolid ? "bg-[var(--tierra)] shadow-sm" : "bg-transparent"
-        }`}
-      >
+      <header className="fixed top-0 left-0 right-0 z-50 bg-[var(--tierra)] shadow-sm">
         <div className="max-w-[1100px] mx-auto px-6 lg:px-14 h-16 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">

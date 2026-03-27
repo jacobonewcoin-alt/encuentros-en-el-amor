@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import SectionLabel from "@/components/ui/SectionLabel";
 import Button from "@/components/ui/Button";
+import LogoSymbol from "@/components/ui/LogoSymbol";
 
 const trayectoria = [
   {
@@ -83,14 +84,7 @@ export default function AcercaDeMiPage() {
                 className="w-full rounded-3xl flex flex-col items-center justify-center gap-6 p-12"
                 style={{ background: "var(--tierra)" }}
               >
-                <svg width="80" height="80" viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="45" cy="45" r="40" fill="none" stroke="#C49A6C" strokeWidth="0.8" opacity="0.4"/>
-                  <path d="M45,18 C28,24 26,40 45,48 C26,56 28,68 45,72 C28,68 22,52 26,36 Z" fill="#C49A6C" opacity="0.5"/>
-                  <path d="M45,18 C62,24 64,40 45,48 C64,56 62,68 45,72 C62,68 68,52 64,36 Z" fill="#8B5E52" opacity="0.5"/>
-                  <circle cx="45" cy="50" r="6" fill="#E8D8C0" opacity="0.9"/>
-                  <circle cx="45" cy="50" r="3" fill="#C49A6C"/>
-                  <circle cx="45" cy="22" r="3" fill="#C49A6C" opacity="0.9"/>
-                </svg>
+                <LogoSymbol size={64} variant="dark" />
                 <p className="font-[family-name:var(--font-cormorant)] text-xl font-light italic text-[var(--lino)] text-center leading-relaxed opacity-80">
                   "A mis 74 años, sé que, mientras tenga fuerza y salud, seguiré aprendiendo de la Vida y compartiendo la maravilla de esta experiencia humana."
                 </p>
