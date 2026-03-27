@@ -45,7 +45,7 @@ function AudioCard({ grabacion, index }: { grabacion: typeof grabaciones[0]; ind
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="bg-[var(--lino)] rounded-2xl p-7 flex flex-col gap-5"
+      className="bg-[var(--lino)] rounded-2xl p-7 flex flex-col gap-5 border border-[var(--lino-oscuro)]"
     >
       {/* Tag */}
       <span
@@ -157,7 +157,7 @@ export default function GrabacionesPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="mt-12 bg-[var(--crema-oscuro)] rounded-2xl p-7 text-center max-w-lg mx-auto"
+            className="mt-12 bg-[var(--crema-oscuro)] rounded-2xl p-7 text-center max-w-lg mx-auto border border-[var(--lino-oscuro)]"
           >
             <p className="font-[family-name:var(--font-cormorant)] text-lg font-light italic text-[var(--tierra)] leading-relaxed">
               "Una vez escuches, algo en ti ya no será igual."
