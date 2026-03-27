@@ -81,7 +81,7 @@ export default function AcercaDeMiPage() {
               className="hidden lg:flex flex-col items-center justify-center min-h-[400px]"
             >
               <div
-                className="w-full rounded-3xl flex flex-col items-center justify-center gap-6 p-12 border border-[var(--ambar)] border-opacity-30"
+                className="w-full rounded-3xl flex flex-col items-center justify-center gap-6 p-12 border-l-[3px] border-[var(--ambar)]"
                 style={{ background: "var(--tierra)" }}
               >
                 <LogoSymbol size={64} variant="dark" />

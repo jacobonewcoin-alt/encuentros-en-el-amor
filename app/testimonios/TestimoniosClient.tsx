@@ -89,7 +89,7 @@ export default function TestimoniosClient({ destacados, resto }: Props) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.05 }}
-                className="bg-[var(--lino)] rounded-xl p-6 mb-5 break-inside-avoid border border-[var(--lino-oscuro)]"
+                className="bg-[var(--lino)] rounded-xl p-6 mb-5 break-inside-avoid border-l-[3px] border-[var(--arcilla)]"
               >
                 <blockquote className="font-[family-name:var(--font-cormorant)] text-lg font-light italic text-[var(--tierra)] leading-relaxed mb-4">
                   "{t.texto}"
