@@ -100,8 +100,7 @@ export default function HomeClient({ actividadesPreview, testimonioDestacado }: 
             transition={{ duration: 0.6, delay: 0.5 }}
             className="font-[family-name:var(--font-jost)] text-[15px] font-light text-[var(--texto-suave)] max-w-lg leading-relaxed"
           >
-            Abriendo espacios donde<br />
-            el Amor se hace presente
+            Abriendo espacios donde el Amor se hace presente
           </motion.p>
 
           <motion.div
