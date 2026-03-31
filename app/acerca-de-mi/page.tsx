@@ -86,7 +86,7 @@ export default function AcercaDeMiPage() {
               >
                 <LogoSymbol size={64} variant="dark" />
                 <p className="font-[family-name:var(--font-cormorant)] text-xl font-light italic text-[var(--lino)] text-center leading-relaxed opacity-80">
-                  "A mis 74 años, sé que, mientras tenga fuerza y salud, seguiré aprendiendo de la Vida y compartiendo la maravilla de esta experiencia humana."
+                  "A mis 74 años, sé que, mientras tenga fuerza y salud, seguiré aprendiendo de la Vida y compartiendo la maravilla de esta experiencia humana, con pasión y gratitud."
                 </p>
               </div>
             </motion.div>
