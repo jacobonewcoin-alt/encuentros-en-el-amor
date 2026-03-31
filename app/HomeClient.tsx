@@ -80,7 +80,7 @@ export default function HomeClient({ actividadesPreview, testimonioDestacado }: 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="font-[family-name:var(--font-jost)] text-[10px] tracking-[0.3em] uppercase text-[var(--ambar)]"
+            className="font-[family-name:var(--font-jost)] text-[10px] tracking-[0.3em] uppercase text-[var(--tierra)]"
           >
             Comunidad · Retiros · Espiritualidad
           </motion.p>
@@ -91,19 +91,17 @@ export default function HomeClient({ actividadesPreview, testimonioDestacado }: 
             transition={{ duration: 0.6, delay: 0.35 }}
             className="font-[family-name:var(--font-cormorant)] text-[clamp(38px,7vw,72px)] font-light italic text-[var(--tierra)] leading-[1.15] max-w-3xl"
           >
-            Abriendo espacios donde<br />
-            <em style={{ fontStyle: "italic" }}>el Amor se hace presente</em>
+            Encuentros en el Amor
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="font-[family-name:var(--font-jost)] text-[15px] font-light text-[var(--texto-suave)] max-w-lg leading-relaxed"
+            className="font-[family-name:var(--font-cormorant)] text-[clamp(20px,3vw,32px)] font-light italic text-[var(--texto-suave)] max-w-lg leading-relaxed"
           >
-            Un espacio de encuentro entre iguales para adultos en búsqueda.
-            <br />
-            Presencia · Vínculo · Transformación interior.
+            Abriendo espacios donde<br />
+            el Amor se hace presente
           </motion.p>
 
           <motion.div
